@@ -2,6 +2,7 @@
 
 ## "hello, world!"
 ## 開始：2022/3/15
+## ローカル：STUDY > Rails_Tutorial >
 
 This is the first application for the
 [*Ruby on Rails Tutorial*](https://railstutorial.jp/)
