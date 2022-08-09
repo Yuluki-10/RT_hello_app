@@ -9,8 +9,12 @@ gem 'turbolinks', '5.2.0'
 gem 'jbuilder',   '2.9.1'
 gem 'bootsnap',   '1.10.3', require: false
 
-# heroku push時のエラーに対応
+# heroku)のエラーに対応
 gem 'psych', '~> 3.1'
+# heroku)Ruby3.1から標準ライブラリでなくなったので、インストール
+gem 'net-imap'
+gem 'net-pop'
+gem 'net-smtp'
 
 group :development, :test do
   gem 'sqlite3', '1.4.1'
